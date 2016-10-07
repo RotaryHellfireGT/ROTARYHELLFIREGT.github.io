@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokemon Battle</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <center>
+  <div id="container">
+
+    <img class="logo" title="Reset Game" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/English_Pok%C3%A9mon_logo.svg/2000px-English_Pok%C3%A9mon_logo.svg.png" alt="Pokemon" width="650" height="300" margin="auto">
+
+    <br>
+
+    <div id="yourPokemon">
+      <div id="animate" style="display:none;"></div>
+      <img id="yourPokemonImage" src="" alt="" width="350" height="400" />
+
+      <br>
+
+      <progress id="playerHealthBar" max="750" value="750"> </progress>
+      <p>
+        <div id="playerHealthNumber">750</div>
+      </p>
+
+      <h1 id="playerName"></h1>
+      <a href="#" class="action-button shadow animate blue" onclick= attack()>Attack</a>
+      <a href="#" class="action-button shadow animate red" onclick= special()>Special</a>
+
+    </div>
+    <!-- 
+http://vignette4.wikia.nocookie.net/sonicpokemon/images/e/ee/001_bulbasaur_by_pklucario.png/revision/latest?cb=20140520161302" -->
+
+    <div id="enemyPokemon">
+      <img id="enemyPokemonImage" src="" alt="" width="200" height="200" />
+      <br>
+      <progress id="enemyHealthBar" max="750" value="750"> </progress>
+      <p>
+        <div id="enemyHealthNumber">750</div>
+      </p>
+      <h1 id="enemyName"></h1>
+
+    </div>
+
+
+</center>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+  </body>
+</html>

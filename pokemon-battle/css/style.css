@@ -1,0 +1,54 @@
+#animate { position: relative; border; 1px solid green; background-image: url("https://media.giphy.com/media/KYWBo7T9l6wCc/giphy.gif"); width: 100px; height: 100px; repeat: no-repeat;background-size: cover; margin-left:1400px;position: absolute;
+    left: 0px;
+    top: 600px;
+    z-index: -1;}
+#animate {margin-top:100px}
+#container {width: 1500px;background-color:none;}
+#yourPokemon {float:left;}
+#enemyPokemon {float: right;}
+#enemyPokemon {margin-top:200px;}
+#yourPokemon  img {margin-left:100px;}
+#yourPokemon {margin-top:200px;}
+body {
+    background-image: url("http://orig11.deviantart.net/257d/f/2014/293/5/5/pokemon_x_and_y_battle_background_2_by_phoenixoflight92-d83jrvo.jpg");
+     background-size: 4000px 1500px;
+}
+body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 80px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-family: 'Futura', cursive;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;	
+}
+
+.blue
+{
+	background-color: #3498DB;
+	border-bottom: 5px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
+
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+
